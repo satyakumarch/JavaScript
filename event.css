@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+   
+    justify-content: center;
+}
+div{
+    height: 50px;
+    width: 300px ;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 30px;
+  background-color: aqua;
+  border-radius: 10px;
+}
+div:hover{
+    border-color: rgb(23, 188, 78);
+}
+h3{
+font-size:40px;
+
+
+}
+button{
+width: 250px;
+height: 80px;
+font-size: 25px;
+border-radius: 5px;
+border: 5px solid rgb(49, 228, 14);
+}
+.container{
+height: 600px;
+width: 600px;
+background-color: rgb(247, 87, 239);
+border: 10px;
+border-radius: 10px;
+border:5px solid black;
+margin-top: 80px;
+}
