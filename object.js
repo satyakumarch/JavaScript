@@ -59,31 +59,32 @@
 
 
 
-const classinfo=[
-{
-  name:"satya",
-  grade:"A+",
-  city:"kathmandu",
-},
-{
-  name:"shivam",
-  grade:"B+",
-  city:"vagalput",
-},
-{
-  name:"gaurav",
-  grade:"C+",
-  city:"Simla",
-},
-];
-console.log(classinfo);
-console.log(classinfo[0]);
-console.log(classinfo[0].name);
-console.log(classinfo[1].name);
-console.log(classinfo[1].city="patna");
-console.log(classinfo[1].city);
-console.log(classinfo[1].push("ram"));
+// const classinfo=[
+// {
+//   name:"satya",
+//   grade:"A+",
+//   city:"kathmandu",
+// },
+// {
+//   name:"shivam",
+//   grade:"B+",
+//   city:"vagalput",
+// },
+// {
+//   name:"gaurav",
+//   grade:"C+",
+//   city:"Simla",
+// },
+// ];
+// console.log(classinfo);
+// console.log(classinfo[0]);
+// console.log(classinfo[0].name);
+// console.log(classinfo[1].name);
+// console.log(classinfo[1].city="patna");
+// console.log(classinfo[1].city);
 
-classinfo[1].push({class:"btech"});
-console.log(classinfo[1]);
+
+// //classinfo[1].push({class:"btech"});
+// console.log(classinfo[1]);
+
 

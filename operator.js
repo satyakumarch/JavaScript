@@ -72,16 +72,18 @@
 // console.log(a^b)
 // console.log(!a)
 // console.log(a&b)
-const mark={
-int219:12,
-int222:34,
-cse325:50,
-csr326:55
-}
-return mark>30
-console.log(mark)
+// const mark={
+// int219:12,
+// int222:34,
+// cse325:50,
+// csr326:55
+// }
+// return mark>30
+// console.log(mark)
 
 
 
 
-
+let a=20;
+let b=30;
+console.log(a+b);
