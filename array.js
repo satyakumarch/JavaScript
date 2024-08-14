@@ -105,60 +105,60 @@
 
 
 
-let arr=[2,3,4]
+//let arr=[2,3,4]
 
-arr.forEach(function(element,index,arr){
-    console.log(index,element,arr)
-})
+// arr.forEach(function(element,index,arr){
+//     console.log(index,element,arr)
+// })
 // output
 // 0 2 [ 2, 3, 4 ]
 // 1 3 [ 2, 3, 4 ]
 // 2 4 [ 2, 3, 4 ]
-arr.forEach((element,index,arr)=>{
-    console.log("arrow",index,element,arr)
+// arr.forEach((element,index,arr)=>{
+//     console.log("arrow",index,element,arr)
 
-})
+// })
 // output
 // arrow 0 2 [ 2, 3, 4 ]
 // arrow 1 3 [ 2, 3, 4 ]
 // arrow 2 4 [ 2, 3, 4 ]
 
-const heros=["naagraj","doga","dhruva","maniraj"]
+// const heros=["naagraj","doga","dhruva","maniraj"]
 
-heros.forEach((element)=>{console.log(element.toUpperCase())})
+// heros.forEach((element)=>{console.log(element.toUpperCase())})
 // output
 // NAAGRAJ
 // DOGA
 // DHRUVA
 // MANIRAJ
 
-arr.map(function(element,index,arr){
-    console.log(element,index,arr,"\n")
-})
-heros.map((h)=>console.log(h.toUpperCase()))
+// arr.map(function(element,index,arr){
+//     console.log(element,index,arr,"\n")
+// })
+// heros.map((h)=>console.log(h.toUpperCase()))
 
 //filter
-//something value you want to change
-console.log(heros,"\n");
-const herowithRaj=heros.filter((h)=>{
-     return h.endsWith('raj')
-})
-console.log(herowithRaj,"\n")
+// //something value you want to change
+// console.log(heros,"\n");
+// const herowithRaj=heros.filter((h)=>{
+//      return h.endsWith('raj')
+// })
+// console.log(herowithRaj,"\n")
 
 //shopping cart
-const cartbill=[20,30,40]
-const sumofbills=cartbill.reduce((prev,curr)=>prev+curr,0)
-console.log(sumofbills)
+// const cartbill=[20,30,40]
+// const sumofbills=cartbill.reduce((prev,curr)=>prev+curr,0)
+// console.log(sumofbills)
 
-const gamescore=[200,300,310,250,150,"satya"]
+// const gamescore=[200,300,310,250,150,"satya"]
 //check id the value are number
-console.log(typeof gamescore[1])
-const gamescorecheck=gamescore.every((v)=>typeof v === 'number')
-console.log("check",gamescorecheck)
+// console.log(typeof gamescore[1])
+// const gamescorecheck=gamescore.every((v)=>typeof v === 'number')
+// console.log("check",gamescorecheck)
 
 //find score above 200
-const above200=gamescore.find((score)=> score> 200) 
-console.log(above200)
+// const above200=gamescore.find((score)=> score> 200) 
+// console.log(above200)
 // output
 // 300
 

@@ -1,5 +1,5 @@
-// let str="har\" "
-// console.log(str.length)
+let str="har\" "
+console.log(str.length)
 
 // const sentence="The quickly brown fox jump over the lazy dog";
 // const word='fox2';

@@ -1,3 +1,3 @@
-setInterval(()=>{
-//     console.log("jai sri ram.");
-// });
+
+
+console.log(typeof (a+b))

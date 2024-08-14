@@ -3,14 +3,14 @@
 // }
 
 
-/* 
+
 let sum=0;
 let n=("Enter the value of n:");
 n=Number.parseInt(n)
-for(let i=0;i<n;i++){
+for(let i=0;i<5;i++){
     sum += (i+1)
 }
-console.log("sum of first "+ n +" natural number is "+sum) */
+console.log("sum of first "+ 5 +" natural number is : "+sum) 
 
 
 // let obj={
@@ -49,4 +49,4 @@ console.log("sum of first "+ n +" natural number is "+sum) */
 // return a<0
 // })
 // console.log(a2)
-console.log("satya kumar");
+//console.log("satya kumar");

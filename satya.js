@@ -28,7 +28,7 @@
 // console.log(newmsg)
 
 //slice js
- let str="ilovecoding";
+ //let str="ilovecoding";
 // console.log(str.slice(1,4));
 // console.log(str.slice(0,4));
 // console.log(str.slice(1,4));
@@ -37,5 +37,5 @@
 
 // console.log(str.replace("love","do"));
 
-let student=["ram","shyam","mohsn","gita","rita"];
-console.log(student);
+// let student=["ram","shyam","mohsn","gita","rita"];
+// console.log(student);

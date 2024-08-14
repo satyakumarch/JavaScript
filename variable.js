@@ -38,9 +38,9 @@
 // string
 // variable.js:19
 // symbol
-"99999.."
-console.log("satya kumar chaudhary")
-console.log(this)
+// "99999.."
+// console.log("satya kumar chaudhary")
+// console.log(this)
 //values and datatypes
 //primitive datatypes
 //number 2,3,4,5,4.5,6,34
@@ -55,7 +55,7 @@ console.log(this)
 //object
 let name1="shiva"
 
-let tname2="krishna"
+let name2="krishna"
 let name3="rohit"
 let name4="satya"
 let name5="mohan"

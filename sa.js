@@ -8,11 +8,13 @@
 //[ 0, 3, 5 ]
    
 
-// let arr3=[1,2,3,5,2,1]
+// let arr3=[1,2,3,8,2,1]
 // let newarr3=arr3.reduce((h1,h2)=>{
 //     return h1+h2
 // })
 // console.log(newarr3)
+// output
+// 17
 
 // let arr3=[1,2,3,5,2,1]
 // const reduce_func=(h1,h2)=>{

@@ -1,15 +1,15 @@
 
 // question 1
 
-let a="harry"
-let b=4
-console.log(a+b)
+// let a="harry"
+// let b=4
+// console.log(a+b)
 
 // output
 
 // harry4
 
-console.log(typeof (a+b))
+//console.log(typeof (a+b))
 
 const dict={
     appreciate:"reconize the full of:",

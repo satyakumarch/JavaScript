@@ -6,7 +6,7 @@
 // console.log(name[4])
 
 
-///template literal
+//template literal
 // let boy1="promod"
 // let boy2="nikil"
 //nikil is a friend of promod
@@ -87,6 +87,6 @@
 // console.log(char)
 
 
-let text="HELLO WORLD";
-let char=text.charCodeAt(0)
-console.log(char)
+// let text="HELLO WORLD";
+// let char=text.charCodeAt(0)
+// console.log(char)
