@@ -80,6 +80,12 @@
 // }
 // return mark>30
 // console.log(mark)
+<<<<<<< HEAD
+=======
+
+
+console.log("satya kumar chaudhhary");
+>>>>>>> f3c1260a438f3393b69de27c1ba28f6df49f7fce
 
 
 
