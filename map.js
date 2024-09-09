@@ -22,10 +22,16 @@
 // console.log(output2);
 
 
-const arr=[3,5,6,7,8];
+// const arr=[3,5,6,7,8];
 
-function triple(x){
-    return x*3;
-}
-const output=arr.map(triple);
+// function triple(x){
+//     return x*3;
+// }
+// const output=arr.map(triple);
+// console.log(output);
+
+
+//filter
+const arr=[2,3,4,5,6,7,0];
+const output=arr.filter((x)=>x<5);
 console.log(output);
