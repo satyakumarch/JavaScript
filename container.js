@@ -4,3 +4,8 @@
 // console.log(t.caption)
 // console.log(t.tHead)
 // console.log(t.tFoot)
+// console.log(b);
+let a;
+console.log(a);
+const b=20;
+console.log(b);

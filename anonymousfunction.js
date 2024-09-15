@@ -5,9 +5,11 @@
 
 
 //immmediately  invoked function
-(function exec(){
+(function exec()
+{
     console.log("named")
 })();
-(function(x){
+(function(x)
+{
     console.log(x*x)
 }(5));

@@ -14,24 +14,24 @@
 
 
 
-//methods of array
-// let num=[1,2,3,34,4]
+// methods of array
+ let num=[1,2,3,4,5]
 // let b=num.toString()
 // console.log(b,typeof b)
 
 
-//join method
+// join method
 // let c=num.join("__")
 // console.log(c,typeof c)
 
-//pop method
+// pop method
 // let r=num.pop()
 // console.log(num,r)
 // output
 // [1, 2, 3, 34] 4
 
 
-//push the element
+// push the element
 // let r1=num.push(56)
 // console.log(num,r)
 
@@ -52,14 +52,14 @@
 // console.log(num,newarray,"\n")
 
 
-//sort order
+// sort order
 // let num4=[342,343,645,234,4565,5646]
 // num4.sort()
 // console.log(num4)// [234, 342, 343, 4565, 5646, 645]
 
 
 
-// //accending order
+//accending order
 // let compare=(a,b)=>{
 //     return a-b
 // }
@@ -105,7 +105,7 @@
 
 
 
-//let arr=[2,3,4]
+// let arr=[2,3,4]
 
 // arr.forEach(function(element,index,arr){
 //     console.log(index,element,arr)
@@ -137,7 +137,7 @@
 // })
 // heros.map((h)=>console.log(h.toUpperCase()))
 
-//filter
+// filter
 // //something value you want to change
 // console.log(heros,"\n");
 // const herowithRaj=heros.filter((h)=>{
@@ -145,24 +145,24 @@
 // })
 // console.log(herowithRaj,"\n")
 
-//shopping cart
+// shopping cart
 // const cartbill=[20,30,40]
 // const sumofbills=cartbill.reduce((prev,curr)=>prev+curr,0)
 // console.log(sumofbills)
 
 // const gamescore=[200,300,310,250,150,"satya"]
-//check id the value are number
+// check id the value are number
 // console.log(typeof gamescore[1])
 // const gamescorecheck=gamescore.every((v)=>typeof v === 'number')
 // console.log("check",gamescorecheck)
 
-//find score above 200
+// find score above 200
 // const above200=gamescore.find((score)=> score> 200) 
 // console.log(above200)
 // output
 // 300
 
 
-//findindex
-//some
-//sort
+// findindex
+// some
+// sort
