@@ -48,33 +48,49 @@
 
 
 
+// const user=[
+// {firstName:" akshay",lastName:"saini ",age:26},
+// {firstName:"donald ",lastName:" trump",age:75},
+// {firstName:"elon ",lastName:" musk",age:50},
+// {firstName:" deepika",lastName:"padukone ",age:26},
+// ];
+// //list of full names
+// const output2=user.map(x=>x.firstName+" "+x.lastName);
+// console.log(output2);
+
 const user=[
-{firstName:" akshay",lastName:"saini ",age:26},
-{firstName:"donald ",lastName:" trump",age:75},
-{firstName:"elon ",lastName:" musk",age:50},
-{firstName:" deepika",lastName:"padukone ",age:26},
+    {firstName:"satya",lastName:"kumar",age:34},
+    {firstName:"mohan",lastName:"pandey",age:23},
+    {firstName:"harshit",lastName:"shukla",age:21},
 ];
-//list of full names
-const output2=user.map(x=>x.firstName+" "+x.lastName);
-console.log(output2);
+console.log(user);
+const output=user.map(x=>x.firstName+" "+x.lastName);
+console.log(output);
+
+
+
+
+
+
+
 
 
 
 //{26:2,75:1,50:1}
-const output1=user.reduce(function(acc,curr){
-if(acc[curr.age]){
-    acc[curr.age]=++acc[curr.age];
+// const output1=user.reduce(function(acc,curr){
+// if(acc[curr.age]){
+//     acc[curr.age]=++acc[curr.age];
 
-}
-else{
-    acc[curr.age]=1;
-}
-return acc;
-},{})
-console.log(output1);
+// }
+// else{
+//     acc[curr.age]=1;
+// }
+// return acc;
+// },{})
+// console.log(output1);
 
 
-const output=user.filter((x)=>x.age<30)
-.map((x)=>x.firstName);
+// const output=user.filter((x)=>x.age<30)
+// .map((x)=>x.firstName);
 
-console.log(output);
+// console.log(output);

@@ -32,6 +32,6 @@
 
 
 //filter
-const arr=[2,3,4,5,6,7,0];
-const output=arr.filter((x)=>x<5);
-console.log(output);
+// const arr=[2,3,4,5,6,7,0];
+// const output=arr.filter((x)=>x<5);
+// console.log(output);

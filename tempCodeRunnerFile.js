@@ -1,3 +1,1 @@
-
-
-console.log(typeof (a+b))
+console.log(a);

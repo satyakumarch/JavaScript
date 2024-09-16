@@ -4,6 +4,12 @@
 // }
 
 
+// const hello=()=>{
+//     console.log("hello how are you?");
+//      return"hi";
+// }
+// console.log("hello satya",hello());
+
 // function oneplus(x,y) {
 //     console.log("done")
 //     return Math.round(1+(x+y)/2)
@@ -23,14 +29,15 @@
 // function powercube(powertwo,n){
 //     return powerrtwo(n) * n
 // }
-//console.log(powercube(powerrtwo,3));
+// console.log(powercube(powerrtwo,3));
+
 // function sayhello(){
 //     return ()=>{
 //         console.log("hello hitesh")
 //     }
 // }
 // let guessvalue=sayhello()
-//console.log(guessvalue);
+// console.log(guessvalue);
 
 
 
@@ -47,15 +54,26 @@
 // console.log(higherorder(2)(3)(4))
 
 
-const mynums=[2,3,4,5] 
+// const mynums=[2,3,4,5] 
+// const sumarray=arr=>{
+//     let total=0
+//     arr.forEach(function(element){
+//         total =total+ element;
+//     });
+//     return total
+// }
+// console.log(sumarray(mynums));
+
+const mynum=[2,3,4,5,6];
 const sumarray=arr=>{
-    let total=0
-    arr.forEach(function(element){
-        total += element
+    let total=0;
+    arr.forEach(function(element) {
+        total=total+element;
+        
     });
-    return total
+    return total;
 }
-console.log(sumarray(mynums));
+console.log(sumarray(mynum));
 
 
 

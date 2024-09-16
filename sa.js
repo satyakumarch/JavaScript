@@ -6,13 +6,24 @@
 // console.log(a2,arr2)
 // output
 //[ 0, 3, 5 ]
+
+
    
 
-// let arr3=[1,2,3,8,2,1]
-// let newarr3=arr3.reduce((h1,h2)=>{
-//     return h1+h2
-// })
-// console.log(newarr3)
+
+    // let arr2 = [45, 23, 12, 43, 34, 54];
+    // let a2 = arr2.filter((a) => {
+    //     return a > 30;
+    // });
+    // console.log(a2);
+    // console.log(arr2);
+
+
+let arr3=[1,2,3,8,2,1]
+let newarr3=arr3.reduce((h1,h2)=>{
+    return h1+h2
+})
+console.log(newarr3)
 // output
 // 17
 

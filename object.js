@@ -25,11 +25,10 @@
 //     name:"gaurav",
 //     age:25,
 //     mark:80,
-//   },
+//   },w
 // ];
 // console.log(classinfo);
-// console.log(classinfo[0]);
-// console.log(classinfo[1]);
+
 
 
 
@@ -51,11 +50,40 @@
 // console.log(classinfo);
 // console.log(classinfo.aman);
 // console.log(classinfo.satya);
-
 // console.log(classinfo.aman.city="mumbai");
 // console.log(classinfo.satya.city);
-
 // console.log(classinfo.aman.city);
+
+const classinfo={
+    satya:{
+        age:34,
+        mark:54,
+        city:"kathmandu",
+        grade:"A+",
+    },
+    mohan:{
+        age:43,
+        mark:34,
+        city:"lucknow",
+        grade:"B+",
+
+    },
+    shivam:{
+
+        age:23,
+        mark:54,
+        city:"punjab",
+        grade:"A",
+
+    }
+
+};
+console.log(classinfo);
+console.log(classinfo.satya.city);
+console.log(classinfo.satya.city="patna");
+console.log(classinfo.satya);
+
+
 
 
 
