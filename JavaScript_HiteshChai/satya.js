@@ -1,2 +1,0 @@
-hrllo dayi
-a
